@@ -1,0 +1,22 @@
+{
+  "name": "parcel_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/parcel index.html",
+    "build": "./node_modules/.bin/parcel build index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.7.0"
+  }
+}
